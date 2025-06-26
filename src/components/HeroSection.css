@@ -1,0 +1,102 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 1rem;
+
+}
+
+.hero__content {
+    background-image: url('../../public/Image/ocean.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    transition: background-position 0.1s ease-out;
+    background-attachment: fixed;
+    padding: 4rem 2rem;
+    width: 100%;
+    min-height: 80vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.hero__title {
+    font-family: Georgia, serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.4);
+}
+
+.hero__description {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    border-radius: 8px;
+    color: #fff;
+
+}
+
+
+.hero__button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 1.1rem 0.2rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    width: 20rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+span a {
+    color: white;
+    font-weight: bold;
+}
+span a:hover {
+    color: #dadada;
+}
+
+.hero__button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .hero__title {
+        font-size: 2rem;
+    }
+
+    .hero__description {
+        font-size: 1rem;
+    }
+
+    .hero__content {
+        padding: 3rem 1rem;
+        border-radius: 12px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .hero__title {
+        font-size: 1.5rem;
+    }
+
+    .hero__button {
+        padding: 0.5rem 1.25rem;
+        font-size: 0.95rem;
+    }
+}
