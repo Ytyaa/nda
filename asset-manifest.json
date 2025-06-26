@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nda/static/css/main.6217f5ba.css",
+    "main.js": "/nda/static/js/main.1e365ad0.js",
+    "static/js/453.39321051.chunk.js": "/nda/static/js/453.39321051.chunk.js",
+    "static/media/ocean.jpg": "/nda/static/media/ocean.5bcd802c4914dcbefdef.jpg",
+    "index.html": "/nda/index.html",
+    "main.6217f5ba.css.map": "/nda/static/css/main.6217f5ba.css.map",
+    "main.1e365ad0.js.map": "/nda/static/js/main.1e365ad0.js.map",
+    "453.39321051.chunk.js.map": "/nda/static/js/453.39321051.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6217f5ba.css",
+    "static/js/main.1e365ad0.js"
+  ]
+}
